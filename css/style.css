@@ -597,6 +597,54 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
 }
 
+/* Sections Header Dark
+--------------------------------*/
+
+.section-header-dark h3 {
+  font-size: 32px;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header-dark h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header-dark h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #ffbf46;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header-dark p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #f7f7f7;
+}
+
+/* Section with background
+--------------------------------*/
+
+.section-bg-dark {
+  background: #111;
+}
+
 /* Featured Services Section
 --------------------------------*/
 
@@ -1270,7 +1318,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #contact .contact-info h3 {
@@ -1278,11 +1326,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: rgb(214, 214, 214);
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #contact .contact-info a:hover {
