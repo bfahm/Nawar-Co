@@ -1079,6 +1079,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+#products .products-item:hover{
+  cursor: pointer;
+}
+
 #products .products-item figure {
   background: #000;
   overflow: hidden;
@@ -1086,11 +1090,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
-}
-
-#products .products-item figure:hover img {
-  opacity: 0.4;
-  transition: 0.3s;
 }
 
 #products .products-item figure .link-preview,

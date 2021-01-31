@@ -205,3 +205,9 @@
 
 })(jQuery);
 
+// Custom Functions
+
+function openDetailsPage(){
+  window.open('details.html');
+}
+
